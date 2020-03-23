@@ -4,7 +4,49 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<body><html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
 <body>
+
+<h1>Creating Profile</h1>
+<div class="yellow-box">
+    <form action="RegisterPage" method="POST">
+        <div class="input-box">
+            <div class="field-name">
+                <label for="first">First Name:</label>
+            </div>
+            <input id="first" type="text" name="first_name">
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label for="last">Last Name:</label>
+            </div>
+            <input id="last" type="text" name="last_name"/>
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label for="email">Email:</label>
+            </div>
+            <input id="email" type="text" name="email"/>
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label for="password">Password:</label>
+            </div>
+            <input id="password" type="password" name="password"/>
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+
+</body>
+
+</html>
+
 <form action="RegisterPage" method="POST" >
     <label for="first">First Name:</label> 
     <input id="first" type= "text" name= "first_name" >

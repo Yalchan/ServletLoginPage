@@ -1,20 +1,30 @@
-<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <title>Register</title>
+    <link rel="stylesheet" href="style/main.css">
 </head>
+
 <body>
-<span>
-<form action="LogInPage" method="POST" >
-    <label for="email">Email:</label> 
-    <input id="email" type="text" name= "email" />
-    <br/>
-    <label for="password">Password:</label> 
-    <input id="password" type="password" name= "password" />
-    <br/>
-    <input type= "submit" value= "Submit" />
-</form>
-</span>
+
+<h1>Please Log In</h1>
+<div class="yellow-box">
+    <form action="LogInPage" method="POST">
+        <div class="input-box">
+            <div class="field-name">
+                <label for="email">Email:</label>
+            </div>
+            <input id="email" type="text" name="email"/>
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label for="password">Password:</label>
+            </div>
+            <input id="password" type="password" name="password"/>
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+
 </body>
+
 </html>
